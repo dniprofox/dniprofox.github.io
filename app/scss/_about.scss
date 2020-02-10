@@ -1,0 +1,87 @@
+// .about {
+//   padding: 0px 0px 70px;
+// }
+.about__inner {
+  display: flex;
+}
+.about__content {
+  padding: 70px 30px 40px 40px;  
+  width: 55%;
+  background-color: #0b232e;
+  color: #fff;
+}
+.about__tires-content {
+  color: #fff;
+  z-index: 5;
+}
+.about__tires-title,
+.about__content-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.about__tires-text,
+.about__content-text {
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  line-height: 1.8;
+  font-variant: 500px;
+}
+.about__tires {  
+  position: relative;
+  background-image: url(../img/tires-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 940px;
+  width: 45%;
+  height: auto;  
+}
+.about__tires-content {
+  padding: 70px 30px 40px 40px;  
+}
+.about__tires-overlay {
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  transition: 0.5s ease-out;  
+  background-color: rgba(11, 35, 46, .5);
+  &:hover {
+    background-color: rgba(11, 35, 46, .8);
+  }
+}
+.link-tips  {
+  font-family: 'PT Sans', sans-serif;
+  width: 180px;
+  border-radius: 20px;
+  text-align: center;  
+  padding: 5px 12px;
+  color: #fff;
+  background: #f14e1a;
+  transition: $trans;
+  margin-bottom: 55px;
+  &:hover {
+    color: #f14e1a;
+    background: #fff;
+  }
+  
+}
+.link-read  {
+  font-family: 'PT Sans', sans-serif;
+  width: 180px;  
+  text-align: center;  
+  padding: 5px 12px;
+  color: #f14e1a;
+  background: #fff;
+  transition: $trans;
+  margin-top: 55px;
+  &:hover {
+    color: #fff;
+    background: #f14e1a;
+  }
+  
+}
